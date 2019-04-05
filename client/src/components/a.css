@@ -1,0 +1,124 @@
+.mainDiv {
+    max-width: 100vw;
+    min-height: 500px;
+    overflow: hidden;
+    /* background-color: black; */
+    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/HPOKFbR/vintage-film-background-with-dust-noise-and-scratches-old-cinema-textures-for-motion-graphics-backdrop_blx-_qiix_thumbnail-full01.png");
+    padding-right: 5%;
+    padding-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    padding-left: 5%;
+    /* background-image: radial-gradient(circle at 20% 50%, rgba(14.12%, 14.51%, 16.86%, 0.98) 0%, rgba(14.12%, 14.51%, 16.86%, 0.88) 100%); */
+}
+
+.poster img {
+    /* height: 50px; */
+    height: 450px;
+    border-radius: 8px;
+}
+
+.commentInput {
+    width: 80vw;
+}
+
+.info h1 {
+    color: white;
+    /* text-align: center; */
+}
+
+.info {
+    color: white;
+    padding-bottom: 3%;
+    text-align: left;
+}
+.infoItem {
+    display: flex;
+    padding-bottom: 4px;
+
+}
+.infoItem > div:first-child {
+    min-width: 100px;
+}
+
+.buttonsRow {
+    display: flex;
+}
+.buttonsRow .button {
+    margin-left: 10px;
+}
+.description{
+    color: white;
+    padding-left: 10%;
+    padding-bottom: 2%;
+}
+.description .c {
+    text-align: justify;
+  }
+.resenhas{
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+.resenhas .resenha{
+    display: flex;
+    text-align: center;
+    border-radius: 40px;
+}
+.resenha2{
+    display: flex;
+    text-align: center;
+    border: 1px;
+    border-radius: 80px;
+    padding-right: 40%;
+}
+.contentDiv{
+    background-color: white;
+    display: flex;
+    margin-left: 40%;
+}
+.userScore{
+    padding-top: 5%;
+}
+.boton{
+    padding-top: 2.4%;
+    padding-left: 3%;
+    margin: 1px; 
+}
+.botonEnviar{
+    padding-top: 5%;
+    padding-right: 64%;
+    margin: 1px; 
+}
+.Text-Field{
+    display: flex;
+    padding-left: 45%;
+}
+
+.text2{
+    display: flex;
+}
+.reviews {
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+}
+.reviews h2 {
+    margin: 30px 0;
+}
+.review {
+    display: flex;
+    width: 80vw;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    background-color: #fefefe;
+    box-shadow: 0 0 0 1px lightgray;
+    overflow-y: scroll;
+    padding: 20px;
+}
